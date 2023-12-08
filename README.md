@@ -14,10 +14,10 @@ pip install djitellopy
 from djitellopy import Tello
 
 tello = Tello()
-tello.connect() //Telloに通信を開始
-tello.takeoff() //離陸
-tello.land()    //着率
-tello.end()    //通信終了
+tello.connect() #Telloに通信を開始
+tello.takeoff() #離陸
+tello.land()    #着率
+tello.end()     #通信終了
 ```
 
 ## 上昇と下降
