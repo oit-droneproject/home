@@ -119,6 +119,7 @@ tello.end()
 ## Getter
 このコードは，Telloの状態を知ることができるコードです．
 バッテリーの残量を知ることができるメソッドもあります．
+状態を知ることができる代表的なメソッドだけを記載します．
 Telloの状態を確認しましょう．
 ### tello_sample07.py
 ```python
@@ -132,7 +133,6 @@ tello.takeoff()
 
 print(f"Battery: {tello.get_battery()}%")
 print(f"flight_time:{tello.get_flight_time()}s")
-print(f"temperature:{tello.get_highest_temperature()}")
 print(f"Tof:{tello.get_distance_tof()}cm")
 print(f"current_state:{tello.get_current_state()}")
 
