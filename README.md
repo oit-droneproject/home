@@ -64,6 +64,7 @@ tello.move_left(50)    //50cm 左に並行移動
 tello.move_right(50)   //50cm 右に並行移動
 tello.move_forward(50) //50cm 前進
 tello.move_back(50)    //50cm 後進
+
 tello.land()
 tello.end()
 ```
@@ -88,6 +89,7 @@ tello.flip_forward()
 tello.flip_left()
 tello.flip_right()
 tello.flip("f")
+
 tello.land()
 tello.end()
 ```
@@ -133,6 +135,7 @@ print(f"flight_time:{tello.get_flight_time()}s")
 print(f"temperature:{tello.get_highest_temperature()}")
 print(f"Tof:{tello.get_distance_tof()}cm")
 print(f"current_state:{tello.get_current_state()}")
+
 tello.land()
 tello.end()
 ```
