@@ -11,6 +11,8 @@ pip install djitellopy
 ## 離陸と着陸
 ### tello_sample01.py
 以下のコードは，Telloドローンを接続し，離陸させ，着陸させ，最後に通信を終了する基本的な流れを示します．
+
+それぞれのメソッドを使ってTelloの動きを確認しましょう．
 ```python
 from djitellopy import Tello
 
@@ -69,7 +71,7 @@ tello.end()
 ## 回転
 ###  tello_sample04.py
 次のコードは，Telloを回転させるためのコードです．回転させるためには，Flip を使用する必要があります．
-Check the code and the drone's movement.
+それぞれのメソッドを使ってTelloの動きを確認しましょう．
 #### flip(self, direction)　or flip_x (self)
 Do a flip maneuver. Users would normally call one of the flip_x functions instead.
 ```python
@@ -93,6 +95,8 @@ tello.end()
 ### tello_sample05.py
 次のコードはTelloを旋回させるためのコードである．rotate_clockwiseは時計回りにTelloを旋回させるメソッドです．
 メソッドの引数は角度を示す．
+
+それぞれのメソッドを使ってTelloの動きを確認しましょう．
 Check the code and the drone's movement.
 #### rotate_clockwise(self, x)
 Rotate x degree clockwise.
@@ -113,8 +117,9 @@ tello.land()
 tello.end()
 ```
 ## Getter
-The following methods can be used to determine the status of tello. In particular, get_current_state method can be used to know all the states.
-Check the code and the drone's movement.
+このコードは，Telloの状態を知ることができるコードです．
+バッテリーの残量を知ることができるメソッドもあります．
+Telloの状態を確認しましょう．
 ### tello_sample07.py
 ```python
 from djitellopy import Tello
@@ -127,7 +132,6 @@ tello.takeoff()
 
 print(f"Battery: {tello.get_battery()}%")
 print(f"flight_time:{tello.get_flight_time()}s")
-print(f"height:{tello.get_height()}cm")
 print(f"temperature:{tello.get_highest_temperature()}")
 print(f"Tof:{tello.get_distance_tof()}cm")
 print(f"current_state:{tello.get_current_state()}")
@@ -135,6 +139,6 @@ tello.land()
 tello.end()
 ```
 
-## Exercise
-1. The drone should be flown so that it draws an equilateral triangle with side lengths of 50 cm at 180 cm from the floor.
-2. The target height is 180 cm, and the loop is infinite while adjusting the height. However, when q is pressed, the loop must be exited.
+## 問題
+1. 水平方向に１辺の長さが50cmの正方形をTelloで描いてみましょう！
+2. 垂直方向に1辺の長さが50cmの正方形をTelloで描いてまましょう，最後には回転して終了をアピールしてみましょう．
