@@ -73,7 +73,7 @@ tello.end()
 次のコードは，Telloを回転させるためのコードです．回転させるためには，Flip を使用する必要があります．
 それぞれのメソッドを使ってTelloの動きを確認しましょう．
 #### flip(self, direction)　or flip_x (self)
-Do a flip maneuver. Users would normally call one of the flip_x functions instead.
+Telloが空中で不安定なときはコマンドが実行されない場合があります．
 ```python
 from djitellopy import Tello
 
@@ -97,9 +97,8 @@ tello.end()
 メソッドの引数は角度を示す．
 
 それぞれのメソッドを使ってTelloの動きを確認しましょう．
-Check the code and the drone's movement.
 #### rotate_clockwise(self, x)
-Rotate x degree clockwise.
+
 ```python
 from djitellopy import Tello
 import time
