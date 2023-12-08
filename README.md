@@ -1,4 +1,5 @@
 # DJITelloPy
+ドローンプロジェクトの備忘録としてのサイトです．
 DJITelloPyのライブリーを使用してTelloを操作しましょう．
 ## Install using pip
 以下のコマンドでDJITelloPyをインストールすることができます．
