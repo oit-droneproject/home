@@ -41,7 +41,7 @@ tello.end()
 ```
 
 
-##  Forward, Back, Left or Right
+##  前進，後進，左右移動
 ### tello_sample03.py
 The following codes are for forward/backward/left/right movement in Tello.
 Check the code and the drone's movement.
