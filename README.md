@@ -1,7 +1,7 @@
 # DJITelloPy
 ドローンプロジェクトの備忘録としてのサイトです．
 DJITelloPyのライブリーを使用してTelloを操作しましょう．
-## Install using pip
+## pipでインストール
 以下のコマンドでDJITelloPyをインストールすることができます．
 
 [DJItelloPy](https://github.com/damiafuentes/DJITelloPy)
