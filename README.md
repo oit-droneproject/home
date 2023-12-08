@@ -59,11 +59,11 @@ tello = Tello()
 tello.connect()
 tello.takeoff()
 
-tello.move_up(50)      //50cm 上昇
-tello.move_left(50)    //50cm 左に並行移動
-tello.move_right(50)   //50cm 右に並行移動
-tello.move_forward(50) //50cm 前進
-tello.move_back(50)    //50cm 後進
+tello.move_up(50)      #50cm 上昇
+tello.move_left(50)    #50cm 左に並行移動
+tello.move_right(50)   #50cm 右に並行移動
+tello.move_forward(50) #50cm 前進
+tello.move_back(50)    #50cm 後進
 
 tello.land()
 tello.end()
@@ -110,8 +110,8 @@ tello = Tello()
 tello.connect()
 tello.takeoff()
 
-tello.rotate_clockwise(90)          //時計回りに90度
-tello.rotate_counter_clockwise(90)  //反時計回りに90度
+tello.rotate_clockwise(90)          #時計回りに90度
+tello.rotate_counter_clockwise(90)  #反時計回りに90度
 
 tello.land()
 tello.end()
