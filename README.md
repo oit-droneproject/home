@@ -9,7 +9,7 @@ pip install djitellopy
 ```
 ## 離陸と着陸
 ### tello_sample01.py
-以下のコードは，Telloドローンを接続し，離陸させ，着陸させ，最後に通信を終了する基本的な流れを示しています．
+以下のコードは，Telloドローンを接続し，離陸させ，着陸させ，最後に通信を終了する基本的な流れを示します．
 ```python
 from djitellopy import Tello
 
@@ -67,7 +67,7 @@ tello.end()
 
 ## 回転
 ###  tello_sample04.py
-次のコードは，Telloを回転させるためのコードである．回転させるためには，Flip を使用する必要がある．
+次のコードは，Telloを回転させるためのコードです．回転させるためには，Flip を使用する必要があります．
 Check the code and the drone's movement.
 #### flip(self, direction)　or flip_x (self)
 Do a flip maneuver. Users would normally call one of the flip_x functions instead.
@@ -88,9 +88,10 @@ tello.flip("f")
 tello.land()
 tello.end()
 ```
-## Rotate
+## 旋回
 ### tello_sample05.py
-The following code can be used to rotate tello, clockwise and counterclockwise rotation can be used.
+次のコードはTelloを旋回させるためのコードである．rotate_clockwiseは時計回りにTelloを旋回させるメソッドです．
+メソッドの引数は角度を示す．
 Check the code and the drone's movement.
 #### rotate_clockwise(self, x)
 Rotate x degree clockwise.
@@ -104,8 +105,6 @@ tello.connect()
 tello.takeoff()
 
 tello.rotate_clockwise( 90)
-
-
 tello.rotate_counter_clockwise(90)
 
 
