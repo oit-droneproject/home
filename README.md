@@ -7,10 +7,9 @@ DJITelloPyのライブリーを使用してTelloを操作しましょう．
 ```bash
 pip install djitellopy
 ```
-## Take-off and Landing
+## 離陸と着陸
 ### tello_sample01.py
-The following codes are for takeoffs and landings in Tello.
-Check the code and the drone's movement.
+次のコードを使うことで離陸と着陸をすることができます．
 ```python
 from djitellopy import Tello
 
