@@ -9,7 +9,7 @@ pip install djitellopy
 ```
 ## 離陸と着陸
 ### tello_sample01.py
-次のコードを使うことで離陸と着陸をすることができます．
+このコードは，Telloドローンを接続し，離陸させ，着陸させ，最後に通信を終了する基本的な流れを示しています．
 ```python
 from djitellopy import Tello
 
@@ -21,10 +21,9 @@ tello.land()
 tello.end()
 ```
 
-## Up,Down
+## 上昇と下降
 ### tello_sample02.py
-The following code is for vertical movement in Tello.
-Check the code and the drone's movement.
+以下のコードはtelloを上昇と下降させるためのコードです．
 #### move_up(self, x),move_down(self, x)
 Fly x cm up or down.
 ```python
