@@ -70,7 +70,8 @@ tello.end()
 ## 回転
 ###  tello_sample04.py
 次のコードは，Telloを回転させるためのコードです．回転させるためには，Flip を使用する必要があります．
-それぞれのメソッドを使ってTelloの動きを確認しましょう．
+それぞれのメソッドを使ってTelloの動きを確認しましょう．特にTelloが不安定のときは命令が実行できないときがあります．
+以下のソースコードでは，バク転のみを有効にしてあります．
 #### flip(self, direction)　or flip_x (self)
 Telloが空中で不安定なときはコマンドが実行されない場合があります．
 ```python
@@ -82,11 +83,11 @@ tello.connect()
 tello.takeoff()
 
 tello.flip_back()
-tello.flip_forward()
-tello.flip_forward()
-tello.flip_left()
-tello.flip_right()
-tello.flip("f")
+#tello.flip_forward()
+#tello.flip_forward()
+#tello.flip_left()
+#tello.flip_right()
+#tello.flip("f")
 
 tello.land()
 tello.end()
