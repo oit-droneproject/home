@@ -27,7 +27,6 @@ tello.end()     #通信終了
 ### tello_sample02.py
 以下のコードはTelloを上昇と下降させるためのコードです．それぞれメソッドの引数はセンチメートルです．
 #### move_up(self, x),move_down(self, x)
-Fly x cm up or down.
 ```python
 from djitellopy import Tello
 
@@ -49,7 +48,6 @@ tello.end()
 次のコードは，Telloを前進，後進，左，右に移動させるためのコードです．それぞれのメソッドの引数はセンチメートルです．
 それぞれのメソッドを使ってTelloの動きを確認しましょう．
 #### move_forward(self, x),move_back(self, x),move_left(self, x),move_right(self, x)
-Fly x cm forward, back, left or right.
 
 ```python
 from djitellopy import Tello
