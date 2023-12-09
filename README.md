@@ -117,11 +117,12 @@ tello.land()
 tello.end()
 ```
 ## Getter
+### tello_sample07.py
 このコードは，Telloの状態を知ることができるコードです．
 バッテリーの残量を知ることができるメソッドもあります．
 状態を知ることができる代表的なメソッドだけを記載します．
 Telloの状態を確認しましょう．
-### tello_sample07.py
+
 ```python
 from djitellopy import Tello
 import time
