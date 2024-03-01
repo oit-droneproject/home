@@ -28,6 +28,7 @@ tello.end()     #通信終了
 ### tello_sample02.py
 以下のコードはTelloを上昇と下降させるためのコードです．それぞれメソッドの引数はセンチメートルです．
 #### move_up(self, x),move_down(self, x)
+20 <= x <=500
 ```python
 from djitellopy import Tello
 
@@ -49,7 +50,7 @@ tello.end()
 次のコードは，Telloを前進，後進，左，右に移動させるためのコードです．それぞれのメソッドの引数はセンチメートルです．
 それぞれのメソッドを使ってTelloの動きを確認しましょう．
 #### move_forward(self, x),move_back(self, x),move_left(self, x),move_right(self, x)
-
+20 <= x <=500
 ```python
 from djitellopy import Tello
 
@@ -97,10 +98,10 @@ tello.end()
 ### tello_sample05.py
 次のコードはTelloを旋回させるためのコードである．rotate_clockwiseは時計回りにTelloを旋回させるメソッドです．
 メソッドの引数は角度を示す．
-
+1-360
 それぞれのメソッドを使ってTelloの動きを確認しましょう．
 #### rotate_clockwise(self, x)
-
+ (1 <= x < =360)
 ```python
 from djitellopy import Tello
 import time
