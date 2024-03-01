@@ -28,7 +28,7 @@ tello.end()     #通信終了
 ### tello_sample02.py
 以下のコードはTelloを上昇と下降させるためのコードです．それぞれメソッドの引数はセンチメートルです．
 #### move_up(self, x),move_down(self, x)
-20 <= x <=500
+$ 20 <= x <=500$
 ```python
 from djitellopy import Tello
 
