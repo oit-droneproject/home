@@ -24,6 +24,32 @@ tello.land()    #着率
 tello.end()     #通信終了
 ```
 
+
+## Getter
+### tello_sample07.py
+このコードは，Telloの状態を知ることができるコードです．
+バッテリーの残量を知ることができるメソッドもあります．
+状態を知ることができる代表的なメソッドだけを記載します．
+Telloの状態を確認しましょう．
+
+```python
+from djitellopy import Tello
+import time
+
+tello = Tello()
+
+tello.connect()
+tello.takeoff()
+
+print(f"Battery: {tello.get_battery()}%")
+print(f"flight_time:{tello.get_flight_time()}s")
+print(f"Tof:{tello.get_distance_tof()}cm")
+print(f"current_state:{tello.get_current_state()}")
+
+tello.land()
+tello.end()
+```
+
 ## 上昇と下降
 ### tello_sample02.py
 以下のコードはTelloを上昇と下降させるためのコードです．それぞれメソッドの引数はセンチメートルです．
@@ -116,30 +142,7 @@ tello.rotate_counter_clockwise(90)  #反時計回りに90度
 tello.land()
 tello.end()
 ```
-## Getter
-### tello_sample07.py
-このコードは，Telloの状態を知ることができるコードです．
-バッテリーの残量を知ることができるメソッドもあります．
-状態を知ることができる代表的なメソッドだけを記載します．
-Telloの状態を確認しましょう．
 
-```python
-from djitellopy import Tello
-import time
-
-tello = Tello()
-
-tello.connect()
-tello.takeoff()
-
-print(f"Battery: {tello.get_battery()}%")
-print(f"flight_time:{tello.get_flight_time()}s")
-print(f"Tof:{tello.get_distance_tof()}cm")
-print(f"current_state:{tello.get_current_state()}")
-
-tello.land()
-tello.end()
-```
 
 ## 課題
 1. 水平方向に１辺の長さが50cmの正方形をTelloで描きましょう！
