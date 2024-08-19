@@ -1,7 +1,7 @@
 # OIT Drone Project
 OITドローンプロジェクトのサイトです．
 DJITelloPyのライブリーを使用してTelloを操作しましょう．
-## DjiTellopy
+## DJITelloPy
 ### pipでインストール
 以下のコマンドでDJITelloPyをインストールすることができます．
 
