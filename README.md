@@ -7,7 +7,9 @@ OITドローンプロジェクトのサイトです．
 公式サイト
 https://redcliff-inc.co.jp/service/drone-sales-and-subscription/hula/
 
-Python
+専用アプリ
+
+Python　3.12.10
 https://redcliff-inc.co.jp/downloads/hula/Pyhula_v31210.zip
 
 ## DJITelloPy
