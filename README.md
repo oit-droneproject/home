@@ -2,10 +2,13 @@
 OITドローンプロジェクトのサイトです．
 ## Hula
 小型のドローンです、100g以下ですので登録が不要のドローンとなります。
+専用アプリとPythonで制御することが可能です。
 
+公式サイト
+https://redcliff-inc.co.jp/service/drone-sales-and-subscription/hula/
 
-
-
+Python
+https://redcliff-inc.co.jp/downloads/hula/Pyhula_v31210.zip
 
 ## DJITelloPy
 DJITelloPyのライブリーを使用してTelloを操作しましょう．
