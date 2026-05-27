@@ -1,7 +1,14 @@
 # OIT Drone Project
 OITドローンプロジェクトのサイトです．
-DJITelloPyのライブリーを使用してTelloを操作しましょう．
+## Hula
+小型のドローンです、100g以下ですので登録が不要のドローンとなります。
+
+
+
+
+
 ## DJITelloPy
+DJITelloPyのライブリーを使用してTelloを操作しましょう．
 ### pipでインストール
 以下のコマンドでDJITelloPyをインストールすることができます．
 
