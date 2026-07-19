@@ -28,7 +28,7 @@ https://redcliff-inc.co.jp/downloads/hula/Pyhula_v31210.zip
 
 - [シンプルなHulaのカメラ操作](https://github.com/oit-droneproject/hula_thread)
 
-- [シンプルなHulaのカメラ操作](https://github.com/oit-droneproject/hula_api_j)
+- [Hula api日本語](https://github.com/oit-droneproject/hula_api_j)
 
 
 
