@@ -30,8 +30,7 @@ https://redcliff-inc.co.jp/downloads/hula/Pyhula_v31210.zip
 - [シンプルなHulaの運動制御](https://github.com/oit-droneproject/hula_control)
 - [シンプルなHulaのカメラ操作](https://github.com/oit-droneproject/hula_thread)
 - [Hula api日本語](https://github.com/oit-droneproject/hula_api)
-
-
+- [pyhula Python API リファレンス（日本語）] (https://redcliff-inc.co.jp/downloads/hula/Hula_Python_API_pyhula118_JA.pdf)
 
 # Tello
 
