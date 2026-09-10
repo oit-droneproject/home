@@ -27,7 +27,7 @@ https://redcliff-inc.co.jp/downloads/hula/Pyhula_v31210.zip
 ##### プログラミング
 -  [Hulaについて](https://github.com/oit-droneproject/hula)
 - [pyhulaとPythonのインストール](https://github.com/oit-droneproject/hula_install)
-- [VS Codeの設定](https://github.com/oit-droneproject/vscode)
+- [VSCode のインストールと Hula への接続](https://github.com/oit-droneproject/vscode)
 - [Hulaの運動制御API](https://github.com/oit-droneproject/hula_control)
 - [カメラAPI](https://github.com/oit-droneproject/hula_thread)
 - [pyhula Python API リファレンス（日本語）](https://redcliff-inc.co.jp/downloads/hula/Hula_Python_API_pyhula118_JA.pdf)
