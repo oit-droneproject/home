@@ -7,7 +7,7 @@ https://sites.google.com/view/drone-project-oit/oit%E3%82%AB%E3%83%83%E3%83%97?a
 
 # 科学の甲子園
 
-https://redcliff-inc.co.jp/service/drone-sales-and-subscription/koushien
+https://github.com/oit-droneproject//koushien
 
 
 # Hula
