@@ -5,6 +5,11 @@
 
 https://sites.google.com/view/drone-project-oit/oit%E3%82%AB%E3%83%83%E3%83%97?authuser=0
 
+# 科学の甲子園
+
+https://redcliff-inc.co.jp/service/drone-sales-and-subscription/koushien
+
+
 # Hula
 　小型のドローンであり、100g以下であるため国土交通省で登録の必要がないドローンです。
 最大飛行時間は約9〜10分、通信距離は約50m、最大高度は10mという仕様であり
