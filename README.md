@@ -5,9 +5,13 @@
 
 https://sites.google.com/view/drone-project-oit/oit%E3%82%AB%E3%83%83%E3%83%97?authuser=0
 
+日時：11/3 
+場所：大阪工業大学 枚方キャンパス
+
 # 科学の甲子園
 
 https://github.com/oit-droneproject//koushien
+
 
 
 # Hula
