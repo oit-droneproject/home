@@ -11,7 +11,7 @@
 
 内容：Pythonを使用したドローンプログラミング（予定）
 
-https://sites.google.com/view/drone-project-oit/oit%E3%82%AB%E3%83%83%E3%83%97?authuser=0
+URL: https://sites.google.com/view/drone-project-oit/oit%E3%82%AB%E3%83%83%E3%83%97?authuser=0
 
 # 科学の甲子園
 
